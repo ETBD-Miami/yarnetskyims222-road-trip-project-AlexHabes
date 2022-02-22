@@ -1,7 +1,7 @@
 /* Overarching Styles */
 
 body {
-    margin: 3em 15em 5em 15em;
+    margin: 3em 15em 3em 15em;
     background-color: #B9FFFD;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
@@ -42,7 +42,14 @@ h2 {
 }
 
 div.footer {
-    
+    height: 120px;
+    color: #B9FFFD;
+    background-color: #00716E;
+    padding: 0em 2em 3.75em 2em;
+    border: 3px solid black;
+    margin: 5em 0em 0em 0em;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 2em;
 }
 
 /* "Home" Page Styles */
