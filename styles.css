@@ -10,31 +10,39 @@ body {
     margin: 3em auto 3em auto;
 }
 
-nav {
-    border: ;
-    padding: ;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
-    background-color: orange;
+    padding: 0px;
+    margin: 0em auto 3.5em auto;
+    background-color: #00716E;
+    border: 7px solid #B9FFFD;
+    border-radius: 3em;
+    box-shadow: 0px 14px 0px #47BDBA;
 }
 
 nav ul li {
     flex: 1;
-    background-color: red;
-    padding: 1em 1em 1em 1em;
-    margin: 1em 0;
     list-style-type: none;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    margin: 0em 0em 0em 0em;
 }
 
 nav ul li a {
+    display: block;
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    margin: 0em 0em 0em 0em;
+    color: black;
+    background-color: #47BDBA;
+    border: 7px solid #B9FFFD;
+    font-weight: 900;
+    text-align: center;
     text-decoration: none;
+    border-radius: 3em;
 }
 
 nav ul li a:hover {
-    color: white;
+    background-color: #B9FFFD;
 }
 
 h1 {
@@ -54,8 +62,9 @@ h1 {
 
 img {
     display: block;
-    max-width: 30em;
-    margin: 3.5em auto 2em auto;
+    max-width: auto;
+    max-height: 18em;
+    margin: 2.75em auto 1.25em auto;
     border-radius: 2em;
 }
 
